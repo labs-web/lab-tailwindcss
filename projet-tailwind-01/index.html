@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Détail Produit — Tuto 1</title>
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 min-h-screen flex items-center justify-center p-4">
+  <main id="app" class="w-full max-w-sm">
+
+ 
+<article class="bg-white rounded-2xl shadow-md overflow-hidden">
+  <img src="https://placehold.co/640x360" alt="Image produit" class="w-full aspect-video object-cover">
+  <div class="p-4">
+    <h1 class="text-xl font-semibold text-gray-900">Casque Bluetooth X300</h1>
+    <p class="mt-1 text-gray-600 text-sm">
+      Réduction de bruit active, 20h d’autonomie.
+    </p>
+
+    <div class="mt-3 flex items-center justify-between">
+      <span class="text-indigo-600 font-bold text-lg">799 DH</span>
+      <span class="text-green-600 text-sm font-medium">En stock</span>
+    </div>
+
+    <button class="mt-4 w-full rounded-lg bg-indigo-600 text-white py-2 font-medium hover:bg-indigo-700 transition">
+      Ajouter au panier
+    </button>
+  </div>
+</article>
+
+
+
+  </main>
+  <script>
+    // Petit helper pour injecter le contenu étape par étape
+    const app = document.getElementById('app');
+  </script>
+</body>
+</html>
