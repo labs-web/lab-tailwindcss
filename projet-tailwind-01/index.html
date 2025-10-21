@@ -8,10 +8,14 @@
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 min-h-screen flex items-center justify-center p-4">
-  <main id="app" class="w-full max-w-sm">
+  <main id="app" class="w-full max-w-sm md:max-w-2xl">
 
  
-<article class="bg-white rounded-2xl shadow-md overflow-hidden">
+
+ 
+
+
+<article class="bg-white rounded-2xl shadow-md overflow-hidden md:grid md:grid-cols-2">
   <img src="https://placehold.co/640x360" alt="Image produit" class="w-full aspect-video object-cover">
   <div class="p-4">
     <h1 class="text-xl font-semibold text-gray-900">Casque Bluetooth X300</h1>
@@ -24,9 +28,14 @@
       <span class="text-green-600 text-sm font-medium">En stock</span>
     </div>
 
-    <button class="mt-4 w-full rounded-lg bg-indigo-600 text-white py-2 font-medium hover:bg-indigo-700 transition">
-      Ajouter au panier
-    </button>
+
+    <button
+  class="mt-4 w-full rounded-lg bg-indigo-600 text-white py-2 font-medium
+         hover:bg-indigo-700 active:bg-indigo-800 focus:outline-none
+         focus:ring-2 focus:ring-indigo-400 transition duration-200">
+  Ajouter au panier
+</button>
+
   </div>
 </article>
 
